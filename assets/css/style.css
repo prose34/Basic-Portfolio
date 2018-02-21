@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/rockywall.png");
+    /* background-image: url(/Users/paulrose/Desktop/Basic-Portfolio/assets/images/rockywall.png); */
+    /* credit to Subtle Images for the background */
+    margin: 0px auto;
+}
+
+.content {
+    width: 960px;
+    margin: 0px auto;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 2px solid lightslategrey;
+}
+
+.tophead {
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-color: #666;
+    border-top: 10px solid #4aaaa5;
+}
