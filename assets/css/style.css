@@ -158,6 +158,7 @@ h2.portfolioheader {
 section.portfolioimgs {
     padding: 20px;
     text-align: center;
+    /* position: relative; */
 }
 
 .portfolioimg {
@@ -166,19 +167,27 @@ section.portfolioimgs {
     margin: 20px;
 }
 
-/* div.imageonediv {
-    display: inline-block;
+div.imageonediv {
     position: relative;
-} */
+    display: inline-block;
+}
 
 #image1 {
-    position: relative;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
 }
 
 #image1text {
-    position: absolute;
-    left: 0;
     background-color: #4aaaa5;
+    position: absolute;
+    bottom: 10%;
+    font-size: 200%;
+    width: 250px;
+    padding: 10px;
+    left: 0;
+    display: inline-block;
+    margin:20px;
 }
 
 
