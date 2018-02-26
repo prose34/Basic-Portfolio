@@ -2,10 +2,17 @@
     box-sizing: border-box;
 }
 
+/* html {
+    position: relative;
+    height: 100%;
+} */
+
 body {
     background-image: url("../images/rockywall.png");
     /* credit to Subtle Images for the background */
     letter-spacing: 0.75px;
+    /* margin: 0 0 100px; */
+    /* position: relative; */
 }
 
 
@@ -121,18 +128,6 @@ h3.h3title {
 }
 
 
-/* Footer Section */
-
-footer {
-    background-color: #666;
-    border-top: 10px solid #4aaaa5;
-    text-align: center;
-    padding: 40px;
-    color: lightgray;
-    /* position: fixed;
-    bottom: 0; */
-    width: 100%;
-}
 
 /* PORTFOLIO */
 
@@ -176,20 +171,104 @@ div.imageonediv {
     /* position: absolute;
     top: 0;
     left: 0; */
+    /* display: inline-block; */
 }
 
 #image1text {
     background-color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
     position: absolute;
-    bottom: 10%;
-    font-size: 200%;
+    left: 0;
+    bottom: 5%;
+    font-size: 125%;
     width: 250px;
     padding: 10px;
-    left: 0;
     display: inline-block;
-    margin:20px;
+    margin: 20px;
 }
 
+div.imagetwodiv {
+    position: relative;
+    display: inline-block;
+}
+
+#image2text {
+    background-color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 125%;
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+div.imagethreediv {
+    position: relative;
+    display: inline-block;
+}
+
+#image3text {
+    background-color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 125%;
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+
+div.imagefourdiv {
+    position: relative;
+    display: inline-block;
+}
+
+#image4text {
+    background-color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 125%;
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+div.imagefivediv {
+    position: relative;
+    display: inline-block;
+    left: -146px;
+}
+
+#image5text {
+    background-color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 125%;
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+
+}
 
 /* CONTACT.HTML */
 
@@ -249,4 +328,20 @@ h2.submit {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #fff;
     display: inline-block;
+}
+
+
+/* Footer Section */
+
+footer {
+    background-color: #666;
+    border-top: 10px solid #4aaaa5;
+    text-align: center;
+    padding: 40px;
+    color: lightgray;
+    /* position: fixed; */
+    width: 100%;
+    /* position: absolute;
+    bottom: 0; */
+    /* height: 100px; */
 }
